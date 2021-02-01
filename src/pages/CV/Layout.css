@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+:root {
+	--headings: "Saira Extra Condensed";
+	--dates: "Barlow Condensed";
+	--text: "Muli";
+}
+
 h1,
 h2 {
 	color: var(--secondaryColor);
@@ -25,11 +31,11 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "Saira Extra Condensed";
+	font-family: var(--headings);
 }
 
 .dates {
-	font-family: "Barlow Condensed" !important;
+	font-family: var(--dates);
 }
 
 #HardSkills {
@@ -78,9 +84,8 @@ h4 {
 	}
 
 	p {
-		/* font-size: 14px; */
 		font-size: clamp(14px, 4vw, 18.4px);
-		font-family: Muli-Regular;
+		font-family: var(--text);
 		letter-spacing: 0.21px;
 	}
 }
@@ -97,20 +102,3 @@ h4 {
 		padding-left: 0px;
 	}
 }
-/* @media (min-width: 768px) {
-	.App {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	h1,
-	h2 {
-		font-size: 8.875rem !important;
-	}
-
-	p {
-		font-size: 1.8rem;
-		font-family: Muli-Regular;
-		letter-spacing: 0.21px;
-	}
-} */

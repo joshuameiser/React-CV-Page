@@ -14,7 +14,7 @@
 	list-style-type: none;
 	font-size: 1.2rem;
 	text-transform: uppercase;
-	font-family: "Muli";
+	font-family: var(--text);
 	font-weight: 900;
 }
 

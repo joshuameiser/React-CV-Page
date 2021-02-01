@@ -8,23 +8,12 @@
 }
 
 .content {
-    max-width: 600px;
+	max-width: 600px;
 }
-
-/* .active,
-.collapsible:hover {
-	background-color: #ccc;
-} */
-
-/* .content {
-	overflow: hidden;
-	transition: height 2s;
-} */
 
 .heading::after {
 	content: "+";
 	margin-left: 10px;
-	/* display: inline; */
 }
 
 .heading:hover {

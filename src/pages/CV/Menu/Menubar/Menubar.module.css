@@ -19,7 +19,6 @@
 
 .name {
 	text-align: left;
-	/* margin-left: 40px; */
 	position: absolute;
 	left: 40px;
 	line-height: 60px;
@@ -28,18 +27,8 @@
 	display: inline-block;
 }
 
-/* .hamburger {
-	width: 50px;
-	height: 50px;
-	background-color: var(--secondaryColor);
-	position: absolute;
-	right: 40px;
-	top: 5px;
-} */
-
 .hamburger {
 	display: block;
-	/* background: var(--secondaryColor); */
 	width: 75px;
 	height: 50px;
 	position: absolute;
