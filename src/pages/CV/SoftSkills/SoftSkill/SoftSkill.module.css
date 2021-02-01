@@ -1,0 +1,45 @@
+.collapsible {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	background: transparent;
+}
+
+.content {
+    max-width: 600px;
+}
+
+/* .active,
+.collapsible:hover {
+	background-color: #ccc;
+} */
+
+/* .content {
+	overflow: hidden;
+	transition: height 2s;
+} */
+
+.heading::after {
+	content: "+";
+	margin-left: 10px;
+	/* display: inline; */
+}
+
+.heading:hover {
+	color: purple !important;
+}
+
+.clickedHeading::after {
+	content: "-" !important;
+}
+
+@media (max-width: 320px) {
+	.softSkill p {
+		font-size: 0.875rem;
+	}
+	.bigHeading {
+		line-height: 100%;
+	}
+}

@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2 {
+	color: var(--secondaryColor);
+}
+
+h3 {
+	font-size: 30px;
+	color: var(--secondaryColor);
+}
+
+p {
+	color: var(--textColor);
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Saira Extra Condensed";
+}
+
+.dates {
+	font-family: "Barlow Condensed" !important;
+}
+
+#HardSkills {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#SoftSkills {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.experiences {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.experience,
+.softSkill {
+	padding-top: 30px;
+}
+
+#About {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+@media (min-width: 800px) {
+	#About {
+		padding-top: 50px;
+	}
+}
+
+.active {
+	color: white !important;
+}
+
+@media (min-width: 260px) {
+	.App {
+		padding-left: 11.5px;
+		padding-right: 11.5px;
+	}
+
+	h1,
+	h2 {
+		font-size: 3.75rem;
+	}
+
+	p {
+		/* font-size: 14px; */
+		font-size: clamp(14px, 4vw, 18.4px);
+		font-family: Muli-Regular;
+		letter-spacing: 0.21px;
+	}
+}
+
+@media (min-width: 500px) {
+	.App {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 800px) {
+	.App {
+		padding-left: 0px;
+	}
+}
+/* @media (min-width: 768px) {
+	.App {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	h1,
+	h2 {
+		font-size: 8.875rem !important;
+	}
+
+	p {
+		font-size: 1.8rem;
+		font-family: Muli-Regular;
+		letter-spacing: 0.21px;
+	}
+} */

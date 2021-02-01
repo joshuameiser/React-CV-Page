@@ -1,0 +1,98 @@
+{
+	"header": {
+		"firstName": "JOSHUA",
+		"lastName": "MEISER"
+	},
+	"about": {
+		"text": [
+			"Student, currently enrolled at the HTW in Germany, Berlin. My course of studies is called ‘International Media & Computer Science’, and I am specializing in web technologies.",
+			"Developer, focusing on frontend development. I have a passion for beautifully designed webpages and love to create them with React.",
+			"Climber, because what would life be without any hobbies? If I am not studying or polishing my skills as a developer, then you’d most likely find me in a climbing gym."
+		]
+	},
+	"hardSkills": [
+		{ "name": "NodeJS", "percentage": 65 },
+		{ "name": "React", "percentage": 75 },
+		{ "name": "Git", "percentage": 70 },
+		{ "name": "Typescript", "percentage": 55 },
+		{ "name": "Javascript", "percentage": 70 },
+		{ "name": "HTML", "percentage": 65 },
+		{ "name": "CSS", "percentage": 65 },
+		{ "name": "Sketch", "percentage": 60 }
+	],
+	"softSkills": [
+		{
+			"skillName": "ANALYTICAL THINKING",
+			"skillDescription": "Analyzing and calculating any given situation for its benefits, drawbacks, chances, and risks are second nature to me. I first started developing my analytical thinking when I started climbing over ten years ago. The essence of that sport is to overcome a new problem that is given to you. One wrong movement leads to failure, which is why it is extremely important to understand said problem in and out. This way of thinking was proven to be crucial once again when I delved into the vast world of programming."
+		},
+		{
+			"skillName": "SELF INITIATIVE",
+			"skillDescription": "My life philosophy is based on the thought, that any situation can be turned around, not only for the better, but for something excellent. I am well aware that neither excellent situations, nor an excellent outcome will be presented to me on a silver platter. Often the only way they can be achieved is by showing the initiative oneself."
+		},
+		{
+			"skillName": "OPEN COMMUNICATION",
+			"skillDescription": "There’s almost nothing I value more than open communication, as it is the building foundation of any good team. I strongly believe that good work is only possible if there is a team climate that enables, and encourages everybody to speak their minds. It is equally important to stand by your ideas, as it is to truly listen to others and let them influence, or even change your opinion and mindset."
+		}
+	],
+	"experiences": [
+		{
+			"experienceType": "Working Experience",
+			"experience": [
+				{
+					"name": "SAP WORKING STUDENT",
+					"description": "ST.INGBERT - DEPARTMENT OF PRODUCTS & INNOVATION",
+					"date": "31.07.2017 - 28.02.2018"
+				},
+				{
+					"name": "REMOTE, JAZUYOGA - MARKETING & DESIGN",
+					"description": "5 HOURS PER WEEK SUPPORT FOR YOGA & TRAINING INSTITUTE",
+					"date": "01.01.2019 - still ongoing"
+				}
+			]
+		},
+		{
+			"experienceType": "Experience Abroad",
+			"experience": [
+				{
+					"name": "CAMBRIDGE EXAM (C1)",
+					"description": "SAN FRANCISCO DOWN TOWN, USA",
+					"date": "MAY (CAE2) 2016"
+				},
+				{
+					"name": "ADVANCED DIPLOMA IN ONLINE MARKETING",
+					"description": "SAN FRANCISCO DOWN TOWN, USA (EF-SCHOOL)",
+					"date": "September 2015 - July 2016"
+				}
+			]
+		},
+
+		{
+			"experienceType": "Education",
+			"experience": [
+				{
+					"name": "SCHOOL CERTIFICATE: ABITUR",
+					"description": "ILLTAL-GYMNASIUM ILLINGEN",
+					"date": "August 2007 - June 2015"
+				},
+				{
+					"name": "EF LANGUAGE SCHOOL",
+					"description": "SAN FRANCISCO DOWN TOWN, USA (EF-SCHOOL)",
+					"date": "September 2015 - July 2016"
+				},
+				{
+					"name": "BACHELOR OF SCIENCE",
+					"description": "INTERNATIONAL MEDIA & COMPUTING (HTW-BERLIN)",
+					"date": "April 2018 - Still enrolled"
+				}
+			]
+		}
+	],
+	"menu": [
+		"About",
+		"Hard Skills",
+		"Soft Skills",
+		"Working Experience",
+		"Experience Abroad",
+		"Education"
+	]
+}

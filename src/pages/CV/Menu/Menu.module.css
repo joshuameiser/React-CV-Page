@@ -1,0 +1,36 @@
+.menu {
+	position: relative;
+	display: block;
+	margin-top: 35vh;
+}
+
+.menuItem {
+	position: relative;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	background-color: none;
+	list-style-type: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-family: "Muli";
+	font-weight: 900;
+}
+
+.menuItem a {
+	text-decoration: none;
+	color: #666;
+}
+
+.menuItem a:active {
+	color: white;
+}
+
+.menuItem a:hover {
+	color: #ccc;
+}
+
+.menuItem:active {
+	color: white;
+}
