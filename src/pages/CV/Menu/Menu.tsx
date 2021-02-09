@@ -3,7 +3,7 @@ import menuItems from "../../../data/CV/Content.json";
 import classes from "./Menu.module.css";
 // import Link from "react-scroll";
 import { Link } from "react-scroll";
-import profilePicture from "./profilePicture.jpg";
+import profilePicture from "./profilePicture.webp";
 
 const Menu = (props: { clicked: any }) => {
 	const items: JSX.Element = (
@@ -34,6 +34,7 @@ const Menu = (props: { clicked: any }) => {
 		<Fragment>
 			<div className={classes.img}>
 				<img
+					loading="lazy"
 					src={profilePicture}
 					alt="Profile Picture"
 					className={classes.profilePicture}></img>
