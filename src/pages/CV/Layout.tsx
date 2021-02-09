@@ -8,13 +8,24 @@ import HardSkills from "./HardSkills/HardSkills";
 import SoftSkills from "./SoftSkills/SoftSkills";
 import Experiences from "./Experiences/Experiences";
 
-//Color templates:
-import MainScheme from "./ColorSchemes/Main.module.css";
-import GreenInferno from "./ColorSchemes/GreenInferno.module.css";
+//Color template:
+import "./ColorSchemes/Main.module.css";
 
 const layout = () => {
 	return (
-		<div style={MainScheme}>
+		<div data-theme="dark-mode" className={classes.layout}>
+			<button
+				className={classes.barf}
+				onClick={() => {
+					let x = document.getElementsByClassName(classes.layout);
+					// document.body.removeAttribute("data-theme");
+					// document.body.setAttribute("data-theme", "barf-mode");
+					for (var i = 0; i < x.length; i++) {
+						x[i].setAttribute("data-theme", "barf-mode");
+					}
+				}}>
+				Barf mode ON
+			</button>
 			{/* For < 800px */}
 			<Menubar />
 

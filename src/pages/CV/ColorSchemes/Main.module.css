@@ -1,6 +1,55 @@
-:root {
-	--primaryColor: #800080;
-	--secondaryColor: #495057;
+[data-theme="dark-mode"] {
+	--primaryHue: 300;
+	--primarySaturation: 100%;
+	--primaryLightness: 25%;
+	--primaryColor: hsl(
+		var(--primaryHue),
+		var(--primarySaturation),
+		var(--primaryLightness)
+	);
+	--primaryShade1: hsl(
+		var(--primaryHue),
+		var(--primarySaturation),
+		calc(var(--primaryLightness) - 10%)
+	);
+
+	--secondaryHue: 210;
+	--secondarySaturation: 9%;
+	--secondaryLightness: 31%;
+	--secondaryColor: hsl(
+		var(--secondaryHue),
+		var(--secondarySaturation),
+		var(--secondaryLightness)
+	);
+
 	--textColor: #ced4da;
 	--backgroundColor: black;
+}
+
+[data-theme="barf-mode"] {
+	--primaryHue: 67;
+	--primarySaturation: 100%;
+	--primaryLightness: 32%;
+	--primaryColor: hsl(
+		var(--primaryHue),
+		var(--primarySaturation),
+		var(--primaryLightness)
+	);
+	--primaryShade1: hsl(
+		var(--primaryHue),
+		var(--primarySaturation),
+		calc(var(--primaryLightness) - 10%)
+	);
+
+	--secondaryHue: 11;
+	--secondarySaturation: 35%;
+	--secondaryLightness: 38%;
+	--secondaryColor: hsl(
+		var(--secondaryHue),
+		var(--secondarySaturation),
+		var(--secondaryLightness)
+	);
+
+	--textColor: #ee00ba;
+	--backgroundColor: rgb(0, 218, 218);
 }

@@ -1,14 +1,7 @@
 .App {
 	text-align: center;
-	background-color: var(--backgroundColor);
 	width: 100vw;
 	box-sizing: border-box;
-	padding-bottom: 100px;
-}
-@media (min-width: 800px) {
-	.App {
-		padding-bottom: 200px;
-	}
 }
 
 .App-logo {

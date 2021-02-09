@@ -71,6 +71,16 @@
 	top: 36px;
 }
 
+@media (max-width: 310px) {
+	.hamburger {
+		position: absolute;
+		left: 120px;
+	}
+
+	.name {
+		display: none;
+	}
+}
 @media (max-width: 799px) {
 	.menubar {
 		display: block;
