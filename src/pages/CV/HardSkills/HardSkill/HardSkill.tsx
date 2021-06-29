@@ -23,9 +23,7 @@ const hardSkill = (props: { skill: string; percentage: number }) => {
 					style={{
 						width: props.percentage + "%",
 						borderRadius: 0 + "px",
-					}}>
-					{/* {props.percentage} */}
-				</div>
+					}}></div>
 			</div>
 		</div>
 	);

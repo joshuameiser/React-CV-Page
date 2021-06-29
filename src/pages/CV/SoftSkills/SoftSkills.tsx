@@ -37,9 +37,10 @@ const SoftSkills = () => {
 	};
 
 	const skills: JSX.Element[] = description.map(
-		(skill): JSX.Element => {
+		(skill, key: any): JSX.Element => {
 			return (
 				<SoftSkill
+					key={key}
 					skill={skill[0]}
 					skillDescription={skill[1]}
 					index={skill[2]}

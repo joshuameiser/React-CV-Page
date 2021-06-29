@@ -11,11 +11,11 @@
 		]
 	},
 	"hardSkills": [
-		{ "name": "NodeJS", "percentage": 65 },
-		{ "name": "React", "percentage": 75 },
+		{ "name": "NodeJS", "percentage": 50 },
+		{ "name": "React", "percentage": 85 },
 		{ "name": "Git", "percentage": 70 },
-		{ "name": "Typescript", "percentage": 55 },
-		{ "name": "Javascript", "percentage": 70 },
+		{ "name": "Typescript", "percentage": 60 },
+		{ "name": "Javascript", "percentage": 75 },
 		{ "name": "HTML", "percentage": 65 },
 		{ "name": "CSS", "percentage": 65 },
 		{ "name": "Sketch", "percentage": 60 }
@@ -46,7 +46,12 @@
 				{
 					"name": "REMOTE, JAZUYOGA - MARKETING & DESIGN",
 					"description": "5 HOURS PER WEEK SUPPORT FOR YOGA & TRAINING INSTITUTE",
-					"date": "01.01.2019 - still ongoing"
+					"date": "01.01.2019 - 01.02.2021"
+				},
+				{
+					"name": "REMOTE, REGIONALPLAN & UVP - WEB DEVELOPMENT WITH REACT.JS",
+					"description": "WORKING STUDENT CONTRACT UP TO 10 HOURS PER WEEK",
+					"date": "01.03.2021 - still ongoing"
 				}
 			]
 		},

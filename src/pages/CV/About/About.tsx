@@ -5,12 +5,12 @@ import Header from "./Header/Header";
 
 const text: JSX.Element = (
 	<Fragment>
-		{content.about.text.map((section) => {
+		{content.about.text.map((section, key: any) => {
 			const textArray = section.split(" ");
 			const firstWord = textArray.shift(); //extracts first word of the string
 			const restText = textArray.join(" ");
 			return (
-				<div className={classes.textSection}>
+				<div className={classes.textSection} key={key}>
 					<p className={classes.firstWord + " " + classes.text}>
 						{firstWord + " "}
 					</p>
